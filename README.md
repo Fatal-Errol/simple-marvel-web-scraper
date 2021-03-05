@@ -8,17 +8,16 @@ An awesome (not really) tool that scrapes marvel's API to get the leaks for Wand
 
 ## Getting Started
 
-1. Clone the repo
+1. Clone the repo  
+ `git clone https://github.com/Fatal-Errol/simple-marvel-web-scraper.git`
 
-`git clone https://github.com/Fatal-Errol/simple-marvel-web-scraper.git`
-
-2. Go to the project root
-
+1. Go to the project root  
 `cd simple-marvel-api-scraper`
 
-1. Create your .env file using the contents of `.env.sample` as template. 
-Add your marvel api credentials, you can leave the rest as is.
+1. Create your .env file using the contents of `.env.sample` as template.  
+`cp .env.sample .env`
 
+1. Add your marvel api credentials, you can leave the rest as is.
     - MARVEL_API_PUBLIC_KEY
     - MARVEL_API_PRIVATE_KEY
 
