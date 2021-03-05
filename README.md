@@ -27,6 +27,12 @@ Add your marvel api credentials, you can leave the rest as is.
 1. Run `yarn start` to start the app
 1. Open `http://localhost:8080`
 
+## Optional Configurations
+
+- Setting NODE_ENV to `production` will hide the stack trace value when an error occurs.
+- You can tweak some of the in-memory cache configuration in `src/config/cache.js`
+
+
 ## Available Routes
 
 /
